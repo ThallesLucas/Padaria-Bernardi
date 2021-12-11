@@ -1,0 +1,192 @@
+body{
+    background-color: rgb(251, 251, 249);
+    margin: 0px;
+}
+
+.welcome{
+    margin-right: 30px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(75, 42, 22);
+    font-family: 'Valid Harmony';
+    font-size: 50px;
+    margin: 0px 130px;
+    padding: 10px 0px;
+    border-bottom: solid 2px rgb(75, 42, 22);
+}
+
+h2{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(75, 42, 22);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+}
+
+h3{
+    font-family: 'Allura';
+    text-align: center;
+    color: rgb(75, 42, 22);
+    font-size: 30px;
+}
+
+p{
+    text-align: center;
+    color: rgb(75, 42, 22);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header{
+    background-color: rgb(114, 64, 34);;
+}
+
+header h1{
+    color: rgb(251, 251, 249);
+    border-bottom: solid 2px white;
+}
+
+nav{
+    margin: 0px -8px;
+    text-align: center;
+}
+
+nav ul{
+    text-align: center;
+    display: inline-block;
+}
+
+nav li{
+    display: inline-block;
+    padding: 12px;
+    transition: all 1s ease 0s;
+    border-radius: 10px;
+}
+
+nav li:hover{
+    background-color: rgb(117, 94, 79);
+    border-radius: 10px;
+    transform: scale(1.05);
+}
+
+nav a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(251, 251, 249);
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: wheat;
+}
+
+footer{
+    background-color: rgb(75, 42, 22);
+    border-top: solid white 1px;
+    display: flex;
+    margin: -8px;
+}
+
+footer p{
+    color: rgba(255, 255, 255, 0.651);
+    transition: ease 1s;
+}
+
+footer a p:hover{
+    color: white;
+}
+
+.slogan{
+    width: 200px;
+    height: 200px;
+    margin-left: -40px;
+    margin-top: -40px;
+    padding: 10px 10px;
+    float: left;
+}
+
+#apresentação{
+    border: solid 15px;
+    border-radius: 30px;
+    border-top: solid 5px;
+    border-bottom: solid 5px;
+    width: 1400px;
+    margin: 0px 20px;
+}
+
+.massas{
+    width: 600px;
+    height: 330px;
+    margin: 10px 30px;
+}
+
+.exibição{
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+.rodapé{
+    display: inline-block;
+    margin: 0px 260px;
+}
+
+#slider{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    border-top: solid 0.1px white;
+}
+#slider img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    transition: opacity 800ms;
+}
+#slider img.selected{
+    opacity: 1;
+}
+
+#semlinha{
+    border-bottom: none;
+}
+
+.sobremesa{
+    background-color: rgb(176, 147, 133);
+    display: inline-block;
+    margin: 10px 30px;
+    padding: 10px;
+    transition: all 1s ease;
+}
+.sobremesa:hover{
+    border-radius: 10px;
+    transform: scale(1.05);
+}
+.sobremesa img{
+    width: 300px;
+    height: 250px;
+    padding: 0px 40px;
+}
+
+.pão{
+    background-color: rgb(176, 147, 133);
+    display: inline-block;
+    margin: 10px 30px;
+    padding: 10px;
+    transition: all 1s ease;
+}
+.pão:hover{
+    border-radius: 10px;
+    transform: scale(1.05);
+}
+.pão img{
+    width: 300px;
+    height: 250px;
+    padding: 0px 90px;
+}
