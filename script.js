@@ -23,3 +23,5 @@ function start(){
         nextImage()
     }, time);
 }
+
+window.addEventListener("load", start)
